@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Dashboard.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.11.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Eestec",
+		"logo": "images/4b15083d571c823cfb3a0c961986df2417df2842b4c6ea8c8cae90a9cefd094a9e2ba1eab8b216131c0d3d8f65f4f586f4c034a10c567f9239d601_1280.jpg"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Dashboard">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-custom-color-1 u-xl-mode"><header class=" u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container" id="sec-54e1"><div class="u-section-rows">
+    <div class="u-border-1 u-border-grey-25 u-border-no-left u-border-no-right u-border-no-top u-clearfix u-section-row u-sticky u-sticky-6f2b u-white u-section-row-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" id="sec-beef">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-align-right u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7ed5"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="svg-7ed5" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-active-grey-25 u-button-style u-nav-link u-palette-1-light-3 u-radius-50 u-text-palette-1-base" style="padding: 10px 12px 10px 14px;">A</a><div class="u-nav-popup"><ul class="u-h-spacing-50 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-hover-grey-10 u-nav-link u-text-black u-text-hover-palette-1-base u-white" style="text-decoration: underline !important;">Profile</a>
+</li><li class="u-nav-item"><a href="Prijava.html" class="u-button-style u-hover-grey-10 u-nav-link u-text-black u-text-hover-palette-1-base u-white" style="text-decoration: underline !important;">Logout</a>
+</li></ul>
+</div>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link">A</a><div class="u-nav-popup"><ul class="u-h-spacing-50 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-black u-text-hover-palette-1-base" style="text-decoration: underline !important;">Profile</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-black u-text-hover-palette-1-base" style="text-decoration: underline !important;">Logout</a>
+</li></ul>
+</div>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <a href="Dashboard.html" class="u-image u-logo u-image-1" data-image-width="595" data-image-height="356">
+          <img src="images/logoRed.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-align-left u-menu u-menu-one-level u-offcanvas u-menu-2">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 400;">
+            <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-5"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-grey-90 u-text-hover-palette-1-base" href="Dashboard.html" style="padding: 10px 0px;">Dashboard</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-grey-90 u-text-hover-palette-1-base" href="Companies.html" style="padding: 10px 0px;">Companies</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-grey-90 u-text-hover-palette-1-base" href="Users.html" style="padding: 10px 0px;">Users</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-black u-text-grey-90 u-text-hover-palette-1-base" href="Events.html" style="padding: 10px 0px;">Events</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-6"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Dashboard.html">Dashboard</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Companies.html">Companies</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Users.html">Users</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Events.html">Events</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+    <div class="u-section-row u-white u-section-row-2" id="sec-d25a">
+      <div class="u-clearfix u-sheet u-sheet-2">
+        <h3 class="u-headline u-text u-text-default u-text-1">
+          <a href="/">My workspace</a>
+        </h3>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div></header>
+    <section class="u-align-center u-clearfix u-section-1" id="carousel_1e3c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-tab-links-align-justify u-tabs u-tabs-1">
+          <ul class="u-tab-list u-unstyled" role="tablist">
+            <li class="u-tab-item" role="presentation">
+              <a class="active u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-1" id="link-tab-0da5" href="#tab-0da5" role="tab" aria-controls="tab-0da5" aria-selected="true">Current Task</a>
+            </li>
+            <li class="u-tab-item" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-2" id="link-tab-14b7" href="#tab-14b7" role="tab" aria-controls="tab-14b7" aria-selected="false">History<br>
+              </a>
+            </li>
+            <li class="u-tab-item" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-3" id="link-tab-2917" href="#tab-2917" role="tab" aria-controls="tab-2917" aria-selected="false">Statistics</a>
+            </li>
+            <li class="u-tab-item u-tab-item-4" role="presentation">
+              <a class="u-active-white u-border-6 u-border-active-palette-1-base u-border-grey-15 u-border-hover-grey-15 u-border-no-bottom u-border-no-left u-border-no-right u-button-style u-grey-10 u-hover-grey-10 u-tab-link u-tab-link-4" id="tab-6ff1" href="#link-tab-6ff1" role="tab" aria-controls="link-tab-6ff1" aria-selected="false">Questions</a>
+            </li>
+          </ul>
+          <div class="u-tab-content">
+            <div class="u-container-style u-shape-rectangle u-tab-active u-tab-pane u-white u-tab-pane-1" id="tab-0da5" role="tabpanel" aria-labelledby="link-tab-0da5">
+              <div class="u-container-layout u-container-layout-1">
+                <h2 class="u-align-center u-text u-text-default u-text-1"> Time Untill Event Begins</h2>
+                <div class="u-countdown u-countdown-1" data-target-date="Sun, 12 Dec 2021 14:45:00 GMT" data-for="per-visitor" data-time-left="1200h" data-timer-id="0938" data-target-number="100" data-direction="down" data-start-time="Fri Nov 26 2021 18:35:06 GMT+0300 (Москва, стандартное время)" data-frequency="10s" data-after-count="none" data-redirect-url="https://">
+                  <div class="u-countdown-wrapper u-spacing-20">
+                    <div class="u-countdown-item u-countdown-years u-hidden u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-1">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-1"><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-hidden u-text-palette-3-dark-2">0</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-1">Years</div>
+                    </div>
+                    <div class="u-countdown-separator u-hidden u-text-palette-3-dark-2 u-countdown-separator-1">:</div>
+                    <div class="u-countdown-days u-countdown-item u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-2">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-2"><div class="u-countdown-number u-text-palette-3-dark-2">5</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-hidden u-text-palette-3-dark-2">3</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-2">Days</div>
+                    </div>
+                    <div class="u-countdown-separator u-text-palette-3-dark-2 u-countdown-separator-2">:</div>
+                    <div class="u-countdown-hours u-countdown-item u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-3">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-3"><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-3">Hours</div>
+                    </div>
+                    <div class="u-countdown-separator u-text-palette-3-dark-2 u-countdown-separator-3">:</div>
+                    <div class="u-countdown-item u-countdown-minutes u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-4">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-4"><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-4">Minutes</div>
+                    </div>
+                    <div class="u-countdown-separator u-text-palette-3-dark-2 u-countdown-separator-4">:</div>
+                    <div class="u-countdown-item u-countdown-seconds u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-5">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-5"><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-5">Seconds</div>
+                    </div>
+                    <div class="u-countdown-separator u-hidden u-text-palette-3-dark-2 u-countdown-separator-5">:</div>
+                    <div class="u-countdown-item u-countdown-numbers u-hidden u-palette-3-base u-radius-7 u-spacing-0 u-countdown-item-6">
+                      <div class="u-countdown-counter u-spacing-0 u-countdown-counter-6"><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">1</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div><div class="u-countdown-number u-text-palette-3-dark-2">0</div></div>
+                      <div class="u-countdown-label u-text-palette-3-dark-3 u-countdown-label-6">Items</div>
+                    </div>
+                  </div>
+                  <div class="u-countdown-message u-hidden">
+                    <p>Sorry, the time is up.</p>
+                  </div>
+                </div>
+                <h5 class="u-text u-text-default u-text-2">Event :&nbsp; JobFAIR '22<br>
+                </h5>
+                <p class="u-text u-text-3">For this event you have been assigned to contact the following company.&nbsp;</p>
+                <div class="u-table u-table-responsive u-table-1">
+                  <table class="u-table-entity">
+                    <colgroup>
+                      <col width="50%">
+                      <col width="50%">
+                    </colgroup>
+                    <tbody class="u-table-body">
+                      <tr style="height: 52px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-1">company name</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell">Mistral</td>
+                      </tr>
+                      <tr style="height: 53px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-3">contact person</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell">John Doe (M 30)</td>
+                      </tr>
+                      <tr style="height: 53px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-5">contact phone</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell">234-9876-5400</td>
+                      </tr>
+                      <tr style="height: 73px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-7">contact email</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell">neki@email.com</td>
+                      </tr>
+                      <tr style="height: 52px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-1">company description</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell">Sample text. Click to select the text box. Click again or double click to start editing the text. 
+                          Dictum non consectetur a erat nam at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Tellus mauris a diam maecenas sed enim ut sem. <br><br><b>To findout more click <a href="#">here</a></b> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+                  <div class="u-layout">
+                    <div class="u-layout-row">
+                      <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                        <div class="u-container-layout u-container-layout-2">
+                          <a id="myBtn" class="u-align-right u-border-none u-btn u-button-style u-custom-color-3 u-btn-1">Add Report</a>
+                        </div>
+                      </div>
+                      <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                        <div class="u-container-layout u-container-layout-3">
+                          <a href="Reviews.html" class="u-btn u-button-style u-btn-2 u-custom-color-2">Review reports</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-shape-rectangle u-tab-pane u-white u-tab-pane-2" id="tab-14b7" role="tabpanel" aria-labelledby="link-tab-14b7">
+              <div class="u-container-layout u-container-layout-4">
+                <div class="u-table u-table-responsive u-table-2">
+                  <table class="u-table-entity">
+                    <colgroup>
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                      <col width="25%">
+                    </colgroup>
+                    <tbody class="u-align-center u-table-alt-custom-color-1 u-table-body u-table-valign-middle u-white u-table-body-1">
+                      <tr style="height: 50px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Mistral</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">JobFAIR '21</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Not contacted</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-4">
+                          <a class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-radius-5 u-btn-3" href="Reviews.html">View Reports</a>
+                        </td>
+                      </tr>
+                      <tr style="height: 65px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Ankora</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Soft Skills Academy Sarajevo</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Contacted, no answer</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-8">
+                          <a class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-radius-5 u-btn-3" href="Reviews.html">View Reports</a>
+                        </td>
+                      </tr>
+                      <tr style="height: 50px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-9">Comtrade</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Soft Skills Academy Sarajevo</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Contacted, waiting for reply</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-12">
+                          <a class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-radius-5 u-btn-3" href="Reviews.html">View Reports<span style="font-weight: 400;"></span>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr style="height: 50px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-13">Finshark</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2"> JobFAIR '21</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Accepted</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-16">
+                          <a class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-radius-5 u-btn-4" href="Reviews.html">View Reports</a>
+                        </td>
+                      </tr>
+                      <tr style="height: 50px;">
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-17">Klika</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Soft Skills Academy Sarajevo</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-2">Denied</td>
+                        <td class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-table-cell u-table-cell-20">
+                          <a class="u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-radius-5 u-btn-5" href="Reviews.html">View Reports</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-shape-rectangle u-tab-pane u-white u-tab-pane-3" id="tab-2917" role="tabpanel" aria-labelledby="link-tab-2917">
+              <div class="u-container-layout u-container-layout-5">
+                <h2 class="u-align-center u-text u-text-default u-text-1"> Under Construction </h2>
+                <h3 class="u-align-center"> Coming soon </h3>
+              </div>
+            </div>
+            <div class="u-container-style u-shape-rectangle u-tab-pane u-white u-tab-pane-4" id="link-tab-6ff1" role="tabpanel" aria-labelledby="tab-6ff1">
+              <div class="u-container-layout u-container-layout-6">
+                <div class="u-clearfix u-layout-wrap u-layout-wrap-2">
+                  <div class="u-gutter-0 u-layout">
+                    <div class="u-layout-row">
+                      <div class="u-container-style u-layout-cell u-size-60 u-layout-cell-3">
+                        <div class="u-container-layout u-container-layout-7">
+                          <div class="u-align-center u-container-style u-group u-radius-30 u-shape-round u-white u-group-1">
+                            <div class="u-container-layout u-container-layout-8">
+                              <h4 class="u-text u-text-4">Contact Admin or Team Leader about your issue</h4>
+                              <div class="u-form u-form-1">
+                                <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" source="email" name="form" style="padding: 0px;">
+                                  <div class="u-form-email u-form-group">
+                                    <label for="email-4c18" class="u-label">Whom you'd like to contact</label>
+                                    
+                                    <select class="custom-select u-btn-round u-input u-input-rectangle u-radius-10 u-btn-13 u-border-2 u-border-grey-5 u-grey-5 u-input u-input-rectangle u-radius-10" style="background-color: white;color: black;" id="rolename" name="rolename">
+                                      <option value="1">Harun Kološ (Team Leader)</option>
+                                      <option selected="" value="2">Edib Zahirović (Admin)</option>
+                                  </select>
+                                  </div>
+                                  <div class="u-form-group u-form-name">
+                                    <label for="name-4c18" class="u-label">State your issue</label>
+                                    <input type="text" placeholder="Enter your issue" id="name-4c18" name="name" class="u-border-2 u-border-grey-5 u-grey-5 u-input u-input-rectangle u-radius-10" required="">
+                                  </div>
+                                  <div class="u-form-group u-form-message">
+                                    <label for="message-4c18" class="u-label">Message</label>
+                                    <textarea placeholder="Describe your issue or enter message for admin or team leader" rows="4" cols="50" id="message-4c18" name="message" class="u-border-2 u-border-grey-5 u-grey-5 u-input u-input-rectangle u-radius-10" required=""></textarea>
+                                  </div>
+                                  <div class="u-form-agree u-form-group u-form-group-4" style="visibility:hidden;">
+                                    <input type="checkbox" id="agree-a472" name="agree" class="u-agree-checkbox">
+                                    <label for="agree-a472" class="u-label">I accept the <a href="#">Terms of Service</a>
+                                    </label>
+                                  </div>
+                                  <div class="u-align-right u-form-group u-form-submit">
+                                    <a href="#" class="u-border-active-palette-4-light-1 u-border-hover-palette-4-light-1 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-2 u-radius-10 u-btn-8">Submit your request</a>
+                                    <input type="submit" value="submit" class="u-form-control-hidden">
+                                  </div>
+                                  <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                                  <div class="u-form-send-error u-form-send-message"> Unable to send your message </div>
+                                  <input type="hidden" value="" name="recaptchaResponse">
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      
+<div class="Modal-overlay"></div>
+  
+  <div class="Modal-wrapper Container">
+    
+    <div class="Modal-content">
+      <a  class="Modal-close"><span></span><span></span></a>
+      
+      <h3>Write Report</h3>
+      
+      <form name="form-vote" id="form-vote" method="post" target="hiddenFrame">
+        <input type="hidden" name="vote[id_master]" id="vote-id_master" value="1">
+        <input type="hidden" name="vote[datum]" id="vote-datum" value="">
+        <div class="Form-Group">
+          <input type="date" class="Form-Control" name="vote[name]" id="vote-name" pattern="dd/mm/yyyy" >
+        </div>
+        
+        <div class="Form-Group">
+          <textarea type="textarea" class="Form-Control" name="vote[comment]" id="vote-comment" placeholder="Enter report on contacting the company"></textarea>
+        </div>
+        
+        
+        <div class="clearfix" style="height: 30px;"></div>
+        
+        <div class="Form-Group">
+          <a  id="btn-vote-submit" style="width: inherit;" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-3 u-radius-5 u-btn-3 center-table" onclick="validateForm()">Submit</a>
+        </div>
+        
+        
+      </form>
+      
+    </div>
+  </div>
+    
+    
+  </body>
+
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    function validateForm(){
+      Swal.fire({
+  title: 'Are you sure?',
+  text: "You won't be able to revert this!",
+  icon: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+  confirmButtonText: 'Yes, submit it!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire({
+      icon: 'success',
+      title: 'Your review has been submited',
+      showConfirmButton: false,
+      timer: 1500
+    }).then(()=>{
+      var modal = document.getElementById("myModal");
+      modal.style.display = "none";
+    })
+  }
+})
+      
+    }
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("Modal-close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+      document.getElementById("vote-name").value="";
+      document.getElementById("vote-comment").value="";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+</html>
